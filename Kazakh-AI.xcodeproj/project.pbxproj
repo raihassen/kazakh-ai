@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDF11B8D76391CB1DB4AC61 /* Pods_Kazakh_AI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F2A41F4875487888622CA7 /* Pods_Kazakh_AI.framework */; };
+		FF14AEC61F31FD6100F45229 /* sendName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF14AEC51F31FD6100F45229 /* sendName.swift */; };
+		FF14AEC81F32094300F45229 /* getRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF14AEC71F32094300F45229 /* getRank.swift */; };
+		FF531C5D1F18E7610008BA6C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF531C5C1F18E7610008BA6C /* Reachability.swift */; };
+		FF531C5F1F19140C0008BA6C /* SendResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF531C5E1F19140C0008BA6C /* SendResults.swift */; };
+		FF7F9D031F323EDC00262012 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F9D021F323EDC00262012 /* RankViewController.swift */; };
+		FF7F9D051F3255E800262012 /* RankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F9D041F3255E800262012 /* RankTableViewCell.swift */; };
+		FF7F9D071F3352F700262012 /* getScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F9D061F3352F700262012 /* getScoreBoard.swift */; };
+		FF7F9D091F33552000262012 /* rankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F9D081F33552000262012 /* rankModel.swift */; };
+		FF83F9F71F346D6E00025F01 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83F9F61F346D6E00025F01 /* config.swift */; };
+		FF8684521F20B4BD001DCE73 /* sendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8684511F20B4BD001DCE73 /* sendData.swift */; };
+		FF8982571F015D7E0009273E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8982561F015D7E0009273E /* AppDelegate.swift */; };
+		FF8982591F015D7E0009273E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8982581F015D7E0009273E /* ViewController.swift */; };
+		FF89825C1F015D7E0009273E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF89825A1F015D7E0009273E /* Main.storyboard */; };
+		FF89825F1F015D7F0009273E /* Kazakh_AI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF89825D1F015D7F0009273E /* Kazakh_AI.xcdatamodeld */; };
+		FF8982611F015D7F0009273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8982601F015D7F0009273E /* Assets.xcassets */; };
+		FF8982641F015D7F0009273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8982621F015D7F0009273E /* LaunchScreen.storyboard */; };
+		FFC076341F13CA0100E08F1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC076331F13CA0100E08F1B /* HomeViewController.swift */; };
+		FFC076361F13D13400E08F1B /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC076351F13D13400E08F1B /* PauseViewController.swift */; };
+		FFCFDA341F02BDEA0079322B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFDA331F02BDEA0079322B /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26F2A41F4875487888622CA7 /* Pods_Kazakh_AI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kazakh_AI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C092A56583E4CDD0967898 /* Pods-Kazakh-AI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kazakh-AI.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kazakh-AI/Pods-Kazakh-AI.release.xcconfig"; sourceTree = "<group>"; };
+		A39231E2F957F14153637C05 /* Pods-Kazakh-AI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kazakh-AI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kazakh-AI/Pods-Kazakh-AI.debug.xcconfig"; sourceTree = "<group>"; };
+		FF14AEC51F31FD6100F45229 /* sendName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sendName.swift; sourceTree = "<group>"; };
+		FF14AEC71F32094300F45229 /* getRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getRank.swift; sourceTree = "<group>"; };
+		FF531C5C1F18E7610008BA6C /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FF531C5E1F19140C0008BA6C /* SendResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendResults.swift; sourceTree = "<group>"; };
+		FF7F9D021F323EDC00262012 /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		FF7F9D041F3255E800262012 /* RankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankTableViewCell.swift; sourceTree = "<group>"; };
+		FF7F9D061F3352F700262012 /* getScoreBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getScoreBoard.swift; sourceTree = "<group>"; };
+		FF7F9D081F33552000262012 /* rankModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankModel.swift; sourceTree = "<group>"; };
+		FF83F9F61F346D6E00025F01 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		FF8684511F20B4BD001DCE73 /* sendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendData.swift; sourceTree = "<group>"; };
+		FF8982531F015D7E0009273E /* Kazakh-AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kazakh-AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8982561F015D7E0009273E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF8982581F015D7E0009273E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF89825B1F015D7E0009273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF89825E1F015D7F0009273E /* Kazakh_AI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kazakh_AI.xcdatamodel; sourceTree = "<group>"; };
+		FF8982601F015D7F0009273E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8982631F015D7F0009273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8982651F015D7F0009273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC076331F13CA0100E08F1B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FFC076351F13D13400E08F1B /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
+		FFCFDA301F028F9D0079322B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FFCFDA331F02BDEA0079322B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8982501F015D7E0009273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDF11B8D76391CB1DB4AC61 /* Pods_Kazakh_AI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E2963724D1727D418700A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A39231E2F957F14153637C05 /* Pods-Kazakh-AI.debug.xcconfig */,
+				42C092A56583E4CDD0967898 /* Pods-Kazakh-AI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F2913B64E742E0D46E60B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F2A41F4875487888622CA7 /* Pods_Kazakh_AI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF89824A1F015D7E0009273E = {
+			isa = PBXGroup;
+			children = (
+				FF8982551F015D7E0009273E /* Kazakh-AI */,
+				FF8982541F015D7E0009273E /* Products */,
+				6E2963724D1727D418700A5F /* Pods */,
+				7F2913B64E742E0D46E60B87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8982541F015D7E0009273E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8982531F015D7E0009273E /* Kazakh-AI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8982551F015D7E0009273E /* Kazakh-AI */ = {
+			isa = PBXGroup;
+			children = (
+				FFCFDA561F0411370079322B /* Model */,
+				FF8982561F015D7E0009273E /* AppDelegate.swift */,
+				FFC076331F13CA0100E08F1B /* HomeViewController.swift */,
+				FF8982581F015D7E0009273E /* ViewController.swift */,
+				FFC076351F13D13400E08F1B /* PauseViewController.swift */,
+				FF7F9D021F323EDC00262012 /* RankViewController.swift */,
+				FF7F9D041F3255E800262012 /* RankTableViewCell.swift */,
+				FF7F9D081F33552000262012 /* rankModel.swift */,
+				FF7F9D061F3352F700262012 /* getScoreBoard.swift */,
+				FF8684511F20B4BD001DCE73 /* sendData.swift */,
+				FF14AEC51F31FD6100F45229 /* sendName.swift */,
+				FF531C5E1F19140C0008BA6C /* SendResults.swift */,
+				FFCFDA331F02BDEA0079322B /* Constants.swift */,
+				FF83F9F61F346D6E00025F01 /* config.swift */,
+				FF14AEC71F32094300F45229 /* getRank.swift */,
+				FF531C5C1F18E7610008BA6C /* Reachability.swift */,
+				FF89825A1F015D7E0009273E /* Main.storyboard */,
+				FF8982601F015D7F0009273E /* Assets.xcassets */,
+				FF8982621F015D7F0009273E /* LaunchScreen.storyboard */,
+				FF8982651F015D7F0009273E /* Info.plist */,
+			);
+			path = "Kazakh-AI";
+			sourceTree = "<group>";
+		};
+		FFCFDA561F0411370079322B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF89825D1F015D7F0009273E /* Kazakh_AI.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8982521F015D7E0009273E /* Kazakh-AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8982681F015D7F0009273E /* Build configuration list for PBXNativeTarget "Kazakh-AI" */;
+			buildPhases = (
+				3EF10CCA62C6B9AC38645D6F /* [CP] Check Pods Manifest.lock */,
+				FF89824F1F015D7E0009273E /* Sources */,
+				FF8982501F015D7E0009273E /* Frameworks */,
+				FF8982511F015D7E0009273E /* Resources */,
+				BEE97F29976C243E5F33D617 /* [CP] Embed Pods Frameworks */,
+				E23CFB4BE55ACC047F29E2EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kazakh-AI";
+			productName = "Kazakh-AI";
+			productReference = FF8982531F015D7E0009273E /* Kazakh-AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF89824B1F015D7E0009273E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Raikhan Khassenova";
+				TargetAttributes = {
+					FF8982521F015D7E0009273E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 67TZBKWMCL;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF89824E1F015D7E0009273E /* Build configuration list for PBXProject "Kazakh-AI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF89824A1F015D7E0009273E;
+			productRefGroup = FF8982541F015D7E0009273E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8982521F015D7E0009273E /* Kazakh-AI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8982511F015D7E0009273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8982641F015D7F0009273E /* LaunchScreen.storyboard in Resources */,
+				FF8982611F015D7F0009273E /* Assets.xcassets in Resources */,
+				FF89825C1F015D7E0009273E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF10CCA62C6B9AC38645D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE97F29976C243E5F33D617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kazakh-AI/Pods-Kazakh-AI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23CFB4BE55ACC047F29E2EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kazakh-AI/Pods-Kazakh-AI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF89824F1F015D7E0009273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF531C5F1F19140C0008BA6C /* SendResults.swift in Sources */,
+				FF531C5D1F18E7610008BA6C /* Reachability.swift in Sources */,
+				FF7F9D051F3255E800262012 /* RankTableViewCell.swift in Sources */,
+				FF8982591F015D7E0009273E /* ViewController.swift in Sources */,
+				FF89825F1F015D7F0009273E /* Kazakh_AI.xcdatamodeld in Sources */,
+				FF8982571F015D7E0009273E /* AppDelegate.swift in Sources */,
+				FF7F9D091F33552000262012 /* rankModel.swift in Sources */,
+				FF7F9D031F323EDC00262012 /* RankViewController.swift in Sources */,
+				FFC076341F13CA0100E08F1B /* HomeViewController.swift in Sources */,
+				FF8684521F20B4BD001DCE73 /* sendData.swift in Sources */,
+				FF14AEC81F32094300F45229 /* getRank.swift in Sources */,
+				FFC076361F13D13400E08F1B /* PauseViewController.swift in Sources */,
+				FF14AEC61F31FD6100F45229 /* sendName.swift in Sources */,
+				FF83F9F71F346D6E00025F01 /* config.swift in Sources */,
+				FF7F9D071F3352F700262012 /* getScoreBoard.swift in Sources */,
+				FFCFDA341F02BDEA0079322B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF89825A1F015D7E0009273E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF89825B1F015D7E0009273E /* Base */,
+				FFCFDA301F028F9D0079322B /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8982621F015D7F0009273E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8982631F015D7F0009273E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8982661F015D7F0009273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos10.3;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8982671F015D7F0009273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos10.3;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8982691F015D7F0009273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39231E2F957F14153637C05 /* Pods-Kazakh-AI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67TZBKWMCL;
+				INFOPLIST_FILE = "Kazakh-AI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raihasen.abai.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF89826A1F015D7F0009273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C092A56583E4CDD0967898 /* Pods-Kazakh-AI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67TZBKWMCL;
+				INFOPLIST_FILE = "Kazakh-AI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raihasen.abai.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF89824E1F015D7E0009273E /* Build configuration list for PBXProject "Kazakh-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8982661F015D7F0009273E /* Debug */,
+				FF8982671F015D7F0009273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF8982681F015D7F0009273E /* Build configuration list for PBXNativeTarget "Kazakh-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8982691F015D7F0009273E /* Debug */,
+				FF89826A1F015D7F0009273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF89825D1F015D7F0009273E /* Kazakh_AI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF89825E1F015D7F0009273E /* Kazakh_AI.xcdatamodel */,
+			);
+			currentVersion = FF89825E1F015D7F0009273E /* Kazakh_AI.xcdatamodel */;
+			path = Kazakh_AI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF89824B1F015D7E0009273E /* Project object */;
+}
